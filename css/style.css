@@ -1,0 +1,260 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #f4f4f4;
+
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*base style*/
+
+
+.page-header{
+	width: 100%;
+	position: fixed;
+    top:13px;
+	background-color:#fff;
+	height:55px;
+	border:0.8px solid #f2f3f3 ;
+	
+}
+.main-field{
+	box-sizing: border-box;
+	margin: 10px 10px 40px 160px;
+
+}
+ 
+.hamburger-menu{
+	position:fixed;
+	left:215px;
+	top:30px;
+    }
+
+ 
+h2{
+  	color: black;
+  	font-weight: lighter;
+  	font-size: 15px;
+  	text-align: center;
+  	padding-top:10px;
+  	padding-bottom: 40px;
+  }
+
+.header-extended-menu-block{
+	width:210px;
+	height:640px;
+	background-color:#5270fd;
+	position:fixed;
+	top:0px;
+	left:0px;
+	font-family: arial;
+}
+
+
+.nav-item{
+	color: #eee;
+	font-size:14px;
+    margin-bottom: 20px;
+    text-align:left;
+}
+.nav-item a{
+	margin-left:80px;
+	color:#fff;
+	text-decoration: none;
+}
+.nav-item::after{
+	content: '.';
+	font-size: 0px;
+	display: block;
+	width:100%;
+	height: 1px;
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+.other-extended-menu{
+	margin-left:190px;
+	display: flex;
+	align-items: center;
+}
+#search-field{
+	width:725px;
+	height: 30px;
+	margin:4px 20px 5px 90px;
+    border:1px solid grey;
+    box-shadow:1px 1px 1px 1px #ddd9d9;
+}
+.search-icon i{
+	background-color:#acf2fa;
+	height:100%;
+	width:100%;
+}
+.other-extended-menu label{
+	margin-right:50px;
+}
+.main-body{
+	box-sizing: border-box;
+	margin: 77px 42px 10px 255px;
+}
+.button{
+	background-color: #007bff;
+	display: block;
+	width: 115px;
+	height:40px;
+	border-radius: 5px;
+	border: none;
+	color: #ffffff;
+	float: right;
+}
+.first{
+	background-color: #aeadff;
+	color: white;
+	border-radius:45%;
+	height:18px;
+	width:18px;
+	padding-top: 2px;
+	
+}
+.last{
+	background-color: #aeadff;
+	color: white;
+	border-radius:45%;
+	height:18px;
+	width:18px;
+	padding-top: 2px;
+}
+.page-footer{
+	margin-top:10px;
+}
+th{
+    
+	font-family: arial;
+	font-weight: bolder;
+	font-size:14px;
+	padding-top:7px;
+    padding-left:10px;
+
+}
+
+td{
+	font-family: arial;
+	font-size: 13px;
+    padding-left:10px;
+
+}
+tr:first-child{
+	height:45px;
+}
+
+ 
+tr{ 
+	height:50px;
+	display:block;
+	width:1030px;
+	background: white; 
+	margin-bottom:3px;
+	padding-top: 10px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+h3{ 
+	font-family:arial;
+	font-size:28px;
+	font-weight:bolder;
+	margin-right:40px;
+}
+.category{
+        box-sizing: border-box;
+        padding-top:20px;
+        display: flex;
+        width: 100%;
+}
+.items{
+	height:38px;
+	border:1px solid #d8d8d8;
+	border-radius:10px;
+	background-color: #ffffff;
+	color: #9a97ff;
+	font-family: arial;
+	font-size:15px;
+	margin: auto 13px;
+}
+.all{
+	margin-top: 40px;
+	width:120px;
+	height:35px;
+	border: 1px solid black;
+	background: white;
+	color:black;
+	text-align:left;
+	font-family: arial;
+}
+.down{
+	margin-left:51px;
+
+}
+.button1{
+	border-radius:3px;
+    display:block;
+    border: none;
+	height:30px;
+	width:35px;
+	color: white;
+	font-size:13px;
+	background-color:green;
+	box-sizing: border-box;
+	float: left;
+	margin-right:5px;
+
+}
+.button2{
+	border-radius:3px;
+    display:block;
+    border: none;
+	height:30px;
+	width:50px;
+	color: white;
+	font-size:13px;
+	background-color:#db3142;
+	box-sizing: border-box;
+
+}
